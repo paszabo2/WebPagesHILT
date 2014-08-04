@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset=utf-8>
+    <title>Pete's 'I am awesome resume' & experience</title>
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+  </head>
+
+  <body>
+    <header>
+      <h1>A simple HTML5 document</h1>
+      <nav>
+        <ul>
+          <li><a href="elements.html">Elements</a></li>
+          <li><a href="structure.html">Outer Structure</a></li>
+          <li><a href="internal_structure.html">Inner Structure</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    
+    <main>
+      <article class="blogpost">
+        <h1>Text elements</h1>
+        <section>
+          <h2>Headers</h2>
+
+          <h3>Third-Level Header</h3>
+          <h4>Forth-Level Header</h4>
+          <h5>Fifth-Level Header</h5>
+          <h6>Sixth-Level Header</h6>
+        </section>
+        <section>
+          <h2>Text</h2>
+          <p>Paragraphs text:</p>
+          <p>Lorem ipsum dolor sit amet, elitr concludaturque eu usu. Errem impedit facilis eu eam. Graeco tacimates elaboraret no vis. <a href="http://www.google.com">Link to Google</a>
+           Id quando nominati constituto vim. Vero accusam eum ex.</p>
+
+          <blockquote>"Begin at the beginning," the King said, very gravely, "and go on till you come to the end: then stop."</blockquote>
+
+          <pre>
+            The formatting of the text
+              within the "pre" tag is preserved.
+            </pre>
+        </section>
+        <section>
+          <h2>Lists</h2>
+          <ol>
+            <li>Ordered List</li>
+          </ol>
+
+          <ul>
+            <li>Unordered List</li>
+          </ul>
+
+        </section>
+      </article>
+      <article class="blogpost">
+        <h1>Images</h1>
+        <figure>
+          <img src="../images/sf.jpg" alt="Moon setting over the San Francisco skyline. By Joe Parks">
+          <figcaption>Caption for Image. <a href="https://www.flickr.com/photos/parksjd/9123367798/in/photolist-eUcDoN-dzScgx-9r1YWE-b7HmjZ-9m6gmu-9PjGgs-4X6kq9-7KSe8f-byfTLj-by84f2-8Vhmf1-hzdUHF-9rRADb-c19dku-5J8WZy-aZFbdV-843wiR-9qySWt-9mA9Bp-b5oKxa-73PK9s-fB4tzX-bzqxbU-hUiq2E-keLDPc-5TTbt5-avV3Lf-bDDP7j-2BrmVP-boqx9M-2AzJfG-btG3uS-96UofT-ex6mwr-7TM3AZ-awUjwp-bzriGg-b2gwmx-9vW7sq-abiUne-aL8Pz2-9cnhG7-7EbheV-bj88k4-9qs6H6-bjSzTU-hEkAuS-bc1rQr-byRJwp-eXFM6v">Image by Joe Parks</a>.</figcaption>
+        </figure>
+        <p>Sit half and half brewed shop strong, doppio trifecta americano affogato rich et aftertaste. Iced strong half and half cappuccino chicory, caffeine medium acerbic in cream aftertaste. Foam con panna and organic ristretto id single shot as shop extra breve cream. As foam crema irish white strong that filter.</p>
+      </article>
+      <article class="blogpost">
+        <h1>Tables</h1>
+        <table>
+          <tr>
+            <th>Title of Column</th>
+            <th>Title of Column</th>
+            <th>Title of Column</th>
+          </tr>
+          <tr>
+            <td>Data Element</td>
+            <td>Data Element</td>
+            <td>Data Element</td>
+          </tr>
+          <tr>
+            <td>More Data</td>
+            <td>More Data</td>
+            <td>More Data</td>
+          </tr>
+        </table>
+      </article>
+
+    </main>
+
+      <!-- the old way. Also useful if you want to create a section taht does not have an obvious named tag -->
+    <div id="sidebar">
+    </div>
+
+    <!-- the new way. -->
+
+    <aside>
+      <h1>Supporting Content</h1>
+      <p>Things you want people to know but that are secondary in importance.</p>
+    </aside>
+    
+    <footer>
+      <h2>Footer</h2>
+      <p>Good place for authorship and copyright information.</p>
+    </footer>
+
+  </body>
+</html>
